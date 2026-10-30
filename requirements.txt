@@ -1,0 +1,51 @@
+# ==============================================================================
+# PHARMACARE PRO - PHARMACY MANAGEMENT & POS BILLING SYSTEM
+# University of Mumbai - T.Y. B.Sc. Computer Science (NEP 2020)
+# Student: Ritika Sharma (Roll No: 23) | Guide: Prof. Jayshree Patade
+# ==============================================================================
+# Project Dependencies & Technical Requirements Specification
+# ==============================================================================
+
+# 1. SYSTEM & RUNTIME PREREQUISITES
+# ------------------------------------------------------------------------------
+# Node.js: v18.x, v20.x, or v24.x LTS (Recommended: v20+ or v24.12.0)
+# NPM: v9.x, v10.x, or v11.x (Installed with Node.js)
+# Operating System: Windows 10/11, macOS, or Linux
+# Web Browser: Google Chrome, Microsoft Edge, Mozilla Firefox, or Brave
+
+# 2. DATABASE SYSTEM
+# ------------------------------------------------------------------------------
+# Database: MongoDB Atlas (Cloud Cluster M0 Free Tier / Production)
+# Driver: Mongoose ODM (v8.9.5+)
+# Database Name: pharmacy_db
+# Connection: TLS/SSL Encrypted SRV Connection String
+
+# 3. BACKEND DEPENDENCIES (backend/package.json)
+# ------------------------------------------------------------------------------
+express==4.21.2
+mongoose==8.9.5
+bcryptjs==2.4.3
+jsonwebtoken==9.0.2
+dotenv==16.4.7
+cors==2.8.5
+morgan==1.10.0
+
+# 4. FRONTEND DEPENDENCIES (frontend/package.json)
+# ------------------------------------------------------------------------------
+react==18.3.1
+react-dom==18.3.1
+vite==6.0.11
+tailwindcss==3.4.17
+postcss==8.5.1
+autoprefixer==10.4.20
+lucide-react==0.474.0
+axios==1.7.9
+html2pdf.js==0.14.0
+@vitejs/plugin-react==4.3.4
+
+# 5. HARDWARE RECOMMENDATIONS
+# ------------------------------------------------------------------------------
+# Processor: Intel Core i3 / i5 / AMD Ryzen 5 or higher
+# Memory (RAM): Minimum 4 GB (8 GB Recommended)
+# Storage: Minimum 500 MB free hard disk space
+# Display Resolution: 1280x720 minimum (1920x1080 recommended for POS Counter)

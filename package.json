@@ -1,0 +1,13 @@
+{
+  "name": "pharmacy-management-system",
+  "version": "1.0.0",
+  "description": "Full Stack Pharmacy Management System (React + Node.js + Express + MongoDB)",
+  "scripts": {
+    "seed": "npm --prefix backend run seed",
+    "server": "npm --prefix backend run dev",
+    "client": "npm --prefix frontend run dev"
+  },
+  "keywords": ["pharmacy", "inventory", "billing", "pos", "mongodb", "react", "express"],
+  "author": "Ritika Sharma",
+  "license": "ISC"
+}
